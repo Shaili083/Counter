@@ -4,7 +4,7 @@ import Counter from "./counter";
 
 function App() {
 
-  const maxValue = 10;
+  const maxValue = 1000;
 
 
   return (

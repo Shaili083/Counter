@@ -18,7 +18,7 @@ const Counter = (props) => {
 
     return <div className="counter-container">
         <div className="counter-sub-division" onClick={() => decrementCounter()}>-</div>
-        <input className="counter-sub-division" type="number" value={counterValue} onChange={(e) => setCounterValue(e.target.value)} />
+        <input className="counter-sub-division" type="number" value={counterValue} onChange={(e) => setCounterValue(parseInt(e.target.value))} />
         <div className="counter-sub-division" onClick={() => incrementCounter()}>+</div>
     </div>
 
